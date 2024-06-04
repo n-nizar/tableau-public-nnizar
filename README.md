@@ -18,8 +18,7 @@ This visualization illustrates the cost of 1GB of mobile data across different c
 
 **Visualization**
 
-[The Cost of 1GB of Mobile Data (Tableau Public)](https://public.tableau.com/app/profile/nithinnizar/viz/Costofmobiledatainvariouscountriesarounudtheworld/TheCostof1GBofMobileData)
-
+Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/Costofmobiledatainvariouscountriesarounudtheworld/TheCostof1GBofMobileData) to view the visualization on Tableau Public.
 ![alt text](<Images/The Cost of 1GB of Mobile Data.png>)
 ___
 
@@ -38,8 +37,7 @@ This workbook illustrates the progress of EU member states in transitioning from
 
 **Visualization**
 
-[EU's Path to a Green Future (Tableau Public)](https://public.tableau.com/app/profile/nithinnizar/viz/Europespathtoagreenfuture/EUsGreenFuture)
-
+Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/Europespathtoagreenfuture/EUsGreenFuture) to view the visualization on Tableau Public.
 ![EU's Path to a Green Future](<Images/EU's Path to a Green Future.png>)
 
 ___
@@ -59,8 +57,7 @@ This visualization showcases the global presence and distribution of Starbucks s
 
 **Visualization**
 
-[The Scale of STARBUCKS (Tableau Public)](https://public.tableau.com/app/profile/nithinnizar/viz/TheScaleofStarbucks/TheScaleofStarbucks)
-
+Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/TheScaleofStarbucks/TheScaleofStarbucks) to view the visualization on Tableau Public.
 ![alt text](<Images/The Scale of Starbucks.png>)
 ___
 
@@ -77,7 +74,7 @@ This visualization examines the impact of the COVID-19 pandemic on U.S. air trav
 
 **Visualization**
 
-[US Air Travel Drops Due To COVID-19 (Tableau Public)](https://public.tableau.com/app/profile/nithinnizar/viz/AirTravelduringCovid/USAirTravelAirline)
+Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/AirTravelduringCovid/USAirTravelAirline) to view the visualization on Tableau Public.
 
 ##### Impact of COVID-19 on the Five Major U.S. Desinations.
 
@@ -101,8 +98,7 @@ This workbook examines the historical changes in the CEO-to-worker compensation 
 
 **Visualization**
 
-[Historical Fluctuation of CEO-to-Worker Compensation Ratio (Tableau Public)](https://public.tableau.com/app/profile/nithinnizar/viz/CEO-WorkerCompensationRatio_16201504629590/CEO-WorkerCompensation)
-
+Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/CEO-WorkerCompensationRatio_16201504629590/CEO-WorkerCompensation) to view the visualization on Tableau Public.
 ![Historical Fluctuation of CEO-to-Worker Compensation Ratio](<Images/Historical Fluctuation of CEO-to-Worker Compensation Ratio.png>)
 
 ___
@@ -123,8 +119,7 @@ This workbook compares price levels across U.S. states relative to the national 
 
 **Visualization**
 
-[Regional Price Parity in United States (Tableau Public)](https://public.tableau.com/app/profile/nithinnizar/viz/RegionalPriceParityinUS_16197132826950/PriceparityinUnitedStates)
-
+Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/RegionalPriceParityinUS_16197132826950/PriceparityinUnitedStates) to view the visualization on Tableau Public.
 ![Regional Price Parity in United States](<Images/Price parity in United States.png>)
 
 ___
