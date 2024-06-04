@@ -10,7 +10,7 @@ Check out my portfolio for more Tableau visualizations: [Nithin Nizar's Tableau 
 ## The Cost of 1GB of Mobile Data
 
 ### Description
-This visualization illustrates the cost of 1GB of mobile data across different countries with populations above 1 million. The costs are represented in US dollars and are categorized from least expensive to most expensive.
+This visualization illustrates the cost of 1GB of mobile data across different countries with populations above 1 million. The costs are represented in U.S. dollars and are categorized from least expensive to most expensive.
 
 ### Key Features
 - **Categorization by Region**: The countries are grouped by continents including Africa, Americas, Asia, Australia/Oceania, and Europe.
@@ -18,32 +18,50 @@ This visualization illustrates the cost of 1GB of mobile data across different c
 - **Interactive Comparison**: Users can click on a country to compare its mobile data cost with others.
 
 ### Visualization
+[The Cost of 1 GB of Mobile Data (Tableau Public)](https://public.tableau.com/app/profile/nithinnizar/viz/Costofmobiledatainvariouscountriesarounudtheworld/TheCostof1GBofMobileData)
 ![alt text](<Images/The Cost of 1GB of Mobile Data.png>)
 
 ## The Scale of Starbucks
 
 ### Description
-This visualization showcases the global presence and distribution of Starbucks stores. It highlights the number of stores in different countries, states, and major cities within the US.
+This visualization showcases the global presence and distribution of Starbucks stores. It highlights the number of stores in different countries, states, and major cities within the U.S.
 
 ### Key Features
-- **Global Presence**: Information about Starbucks presence in 73 countries with a total of 25,600 stores worldwide.
-- **US Distribution**: Detailed distribution of 13,608 stores across various US states and cities.
+- **Global Presence**: Information about Starbucks' presence around the globe.
+- **US Distribution**: Detailed distribution of stores across various U.S. states and cities.
 - **Ownership Types**: Breakdown of store ownership, indicating the percentage of company-owned vs. licensed stores.
-- **Top Cities**: Highlights the US cities with the most Starbucks locations.
+- **Top Cities**: Highlights the U.S. cities with the most Starbucks locations.
 
 ### Visualization
+[The Scale of STARBUCKS (Tableau Public)](https://public.tableau.com/app/profile/nithinnizar/viz/TheScaleofStarbucks/TheScaleofStarbucks)
 ![alt text](<Images/The Scale of Starbucks.png>)
 
-## US Air Travel Drops Due To COVID-19
+## U.S. Air Travel Drops Due To COVID-19
 
 ### Description
-This visualization examines the impact of the COVID-19 pandemic on US air travel, focusing on the five major US airlines. It provides a comparative analysis of passenger traffic changes over time.
+This visualization examines the impact of the COVID-19 pandemic on U.S. air travel, focusing on the five major U.S. airlines and five major U.S. destinations. It provides a comparative analysis of passenger traffic changes over time.
 
 ### Key Features
 - **Airline Comparison**: Focuses on Southwest Airlines, Delta, American Airlines, United, and JetBlue.
+- **Destination Comparison**: Focuses on Atlanta, Chicago, New York, Los Angeles, and Dallas.
 - **Traffic Decline**: Illustrates the percentage change in passenger traffic compared to the same period in the previous year.
-- **Impact Analysis**: Detailed analysis of the decline in domestic and international passengers for Southwest Airlines.
-- **Long-term Outlook**: Insights into the expected recovery period for the aviation industry post-pandemic.
+- **Impact Analysis**: Detailed analysis of the decline in domestic and international passengers for fives major US airlines and US destinations.
 
 ### Visualization
+
+[US Air Travel Drops Due To COVID-19 (Tableau Public)](https://public.tableau.com/app/profile/nithinnizar/viz/AirTravelduringCovid/USAirTravelAirline)
+
+#### Impact of COVID-19 on the Five Major U.S.  Desinations.
+![alt text](<../nnizar/Images/US Air Travel Drops Due To COVID-19 (Major Destinations).png>)
+
+#### Impact of COVID-19 on the Five Major U.S. Airlines.
 ![alt text](<Images/US Air Travel Drops Due To COVID-19.png>)
+
+
+## Contributing
+
+Since this is a private repository, contributions will mainly be made by the repository owner or authorized collaborators.
+
+## Contact
+
+For any questions or issues, please contact the repository owner at **NithinNizar@outlook.com**.
