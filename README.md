@@ -107,7 +107,28 @@ Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/CEO-WorkerCo
 
 ___
 
-### 6. Regional Price Parity in United States
+### 6. Panic Shoppers and the Pandemic
+
+**Description:**
+This workbook visualizes the surge in US consumer spending during the COVID-19 pandemic. It highlights significant increases in various categories of goods, emphasizing the impact of panic buying in March 2020.
+
+**Key Features:**
+- *Overall Increase*:
+  - 2020 vs 2019: Shows the overall increase in consumer spending in 2020 compared to 2019..
+  - Mar 2020 vs Mar 2019: Illustrates the substantial increase in consumer spending in March 2020 compared to March 2019, indicating the peak of panic buying.
+
+- *Category-specific Visualizations*:
+  - Each chart represents the percentage change in consumer spending in 2020 compared to the previous year for specific categories.
+
+**Visualization**
+
+Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/PanicshoppersandthePandemic/Panicshoppersandthepandemic) to view the visualization on Tableau Public.
+
+![Regional Price Parity in United States](<Images/Panic shoppers and the pandemic.png>)
+
+___
+
+### 7. Regional Price Parity in United States
 
 **Description:**
 This workbook compares price levels across U.S. states relative to the national average, focusing on various categories such as rent, goods, and overall items from 2008 to 2019.
