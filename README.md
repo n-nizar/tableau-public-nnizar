@@ -7,7 +7,7 @@ Check out my portfolio for more Tableau visualizations: [Nithin Nizar's Tableau 
 
 ## Vizzes
 
-### The Cost of 1GB of Mobile Data
+### 1. The Cost of 1GB of Mobile Data
 
 **Description**
 
@@ -26,7 +26,7 @@ This visualization illustrates the cost of 1GB of mobile data across different c
 ![alt text](<Images/The Cost of 1GB of Mobile Data.png>)
 ___
 
-### The Scale of Starbucks
+### 2. The Scale of Starbucks
 
 **Description**
 
@@ -34,10 +34,10 @@ This visualization showcases the global presence and distribution of Starbucks s
 
 **Key Features**
 
-- **Global Presence**: Information about Starbucks' presence around the globe.
-- **US Distribution**: Detailed distribution of stores across various U.S. states and cities.
+- *Global Presence*: Information about Starbucks' presence around the globe.
+- *US Distribution*: Detailed distribution of stores across various U.S. states and cities.
 - **Ownership Types**: Breakdown of store ownership, indicating the percentage of company-owned vs. licensed stores.
-- **Top Cities**: Highlights the U.S. cities with the most Starbucks locations.
+- *Top Cities*: Highlights the U.S. cities with the most Starbucks locations.
 
 **Visualization**
 
@@ -47,16 +47,16 @@ This visualization showcases the global presence and distribution of Starbucks s
 ___
 
 
-### U.S. Air Travel Drops Due To COVID-19
+### 3. U.S. Air Travel Drops Due To COVID-19
 
 **Description**
 This visualization examines the impact of the COVID-19 pandemic on U.S. air travel, focusing on the five major U.S. airlines and five major U.S. destinations. It provides a comparative analysis of passenger traffic changes over time.
 
 **Key Features**
-- **Airline Comparison**: Focuses on Southwest Airlines, Delta, American Airlines, United, and JetBlue.
-- **Destination Comparison**: Focuses on Atlanta, Chicago, New York, Los Angeles, and Dallas.
-- **Traffic Decline**: Illustrates the percentage change in passenger traffic compared to the same period in the previous year.
-- **Impact Analysis**: Detailed analysis of the decline in domestic and international passengers for fives major US airlines and US destinations.
+- *Airline Comparison*: Focuses on Southwest Airlines, Delta, American Airlines, United, and JetBlue.
+- *Destination Comparison*: Focuses on Atlanta, Chicago, New York, Los Angeles, and Dallas.
+- *Traffic Decline*: Illustrates the percentage change in passenger traffic compared to the same period in the previous year.
+- *Impact Analysis*: Detailed analysis of the decline in domestic and international passengers for fives major US airlines and US destinations.
 
 **Visualization**
 
