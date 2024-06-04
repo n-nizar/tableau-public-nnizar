@@ -44,27 +44,7 @@ Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/Europespatht
 
 ___
 
-### 3. The Scale of Starbucks
-
-**Description**
-
-This visualization showcases the global presence and distribution of Starbucks stores. It highlights the number of stores in different countries, states, and major cities within the U.S.
-
-**Key Features**
-
-- *Global Presence*: Information about Starbucks' presence around the globe.
-- *US Distribution*: Detailed distribution of stores across various U.S. states and cities.
-- *Ownership Types*: Breakdown of store ownership, indicating the percentage of company-owned vs. licensed stores.
-- *Top Cities*: Highlights the U.S. cities with the most Starbucks locations.
-
-**Visualization**
-
-Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/TheScaleofStarbucks/TheScaleofStarbucks) to view the visualization on Tableau Public.
-
-![alt text](<Images/The Scale of Starbucks.png>)
-___
-
-### 4. U.S. Air Travel Drops Due To COVID-19
+### 3. U.S. Air Travel Drops Due To COVID-19
 
 **Description**
 This visualization examines the impact of the COVID-19 pandemic on U.S. air travel, focusing on the five major U.S. airlines and five major U.S. destinations. It provides a comparative analysis of passenger traffic changes over time.
@@ -88,7 +68,7 @@ Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/AirTraveldur
 ![alt text](<Images/US Air Travel Drops Due To COVID-19.png>)
 ___
 
-### 5. Historical Fluctuation of CEO-to-Worker Compensation Ratio
+### 4. Historical Fluctuation of CEO-to-Worker Compensation Ratio
 
 **Description:**
 This workbook examines the historical changes in the CEO-to-worker compensation ratio in top US firms from 1965 to 2019. It distinguishes between granted and realized compensations, providing a comprehensive view of executive pay disparity over time.
@@ -107,7 +87,7 @@ Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/CEO-WorkerCo
 
 ___
 
-### 6. Panic Shoppers and the Pandemic
+### 5. Panic Shoppers and the Pandemic
 
 **Description:**
 This workbook visualizes the surge in US consumer spending during the COVID-19 pandemic. It highlights significant increases in various categories of goods, emphasizing the impact of panic buying in March 2020.
@@ -126,6 +106,26 @@ Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/Panicshopper
 
 ![Regional Price Parity in United States](<Images/Panic shoppers and the pandemic.png>)
 
+___
+
+### 6. The Scale of Starbucks
+
+**Description**
+
+This visualization showcases the global presence and distribution of Starbucks stores. It highlights the number of stores in different countries, states, and major cities within the U.S.
+
+**Key Features**
+
+- *Global Presence*: Information about Starbucks' presence around the globe.
+- *US Distribution*: Detailed distribution of stores across various U.S. states and cities.
+- *Ownership Types*: Breakdown of store ownership, indicating the percentage of company-owned vs. licensed stores.
+- *Top Cities*: Highlights the U.S. cities with the most Starbucks locations.
+
+**Visualization**
+
+Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/TheScaleofStarbucks/TheScaleofStarbucks) to view the visualization on Tableau Public.
+
+![alt text](<Images/The Scale of Starbucks.png>)
 ___
 
 ### 7. Regional Price Parity in United States
