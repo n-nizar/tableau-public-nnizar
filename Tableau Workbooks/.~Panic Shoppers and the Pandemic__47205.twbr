@@ -1,0 +1,1290 @@
+<?xml version='1.0' encoding='utf-8' ?>
+
+<!-- build 20241.24.0515.0324                               -->
+<workbook original-version='18.1' source-build='2024.1.3 (20241.24.0515.0324)' source-platform='mac' version='18.1' xml:base='http://localhost:9100' xmlns:user='http://www.tableausoftware.com/xml/user'>
+  <document-format-change-manifest>
+    <_.fcp.AnimationOnByDefault.true...AnimationOnByDefault />
+    <_.fcp.MarkAnimation.true...MarkAnimation />
+    <_.fcp.ObjectModelEncapsulateLegacy.true...ObjectModelEncapsulateLegacy />
+    <_.fcp.ObjectModelExtractV2.true...ObjectModelExtractV2 />
+    <_.fcp.ObjectModelTableType.true...ObjectModelTableType />
+    <_.fcp.SchemaViewerObjectModel.true...SchemaViewerObjectModel />
+    <SetMembershipControl />
+    <SheetIdentifierTracking />
+    <SortTagCleanup />
+    <_.fcp.VConnDownstreamExtractsWithWarnings.true...VConnDownstreamExtractsWithWarnings />
+    <WindowsPersistSimpleIdentifiers />
+    <WorksheetBackgroundTransparency />
+  </document-format-change-manifest>
+  <repository-location derived-from='http://localhost:9100/workbooks/PanicshoppersandthePandemic?rev=10.7' id='PanicshoppersandthePandemic' path='/workbooks' revision='11.1' />
+  <preferences>
+    <preference name='ui.encoding.shelf.height' value='24' />
+    <preference name='ui.shelf.height' value='26' />
+  </preferences>
+  <style>
+    <_.fcp.MarkAnimation.true...style-rule element='animation'>
+      <format attr='animation-on' value='ao-off' />
+    </_.fcp.MarkAnimation.true...style-rule>
+  </style>
+  <datasources>
+    <datasource caption='Sheet1 (Personal Consumption Expenditures)' inline='true' name='federated.08dxcli0uma4801g054jj0gkz3k4' version='18.1'>
+      <connection class='federated'>
+        <named-connections>
+          <named-connection caption='Personal Consumption Expenditures' name='excel-direct.0n4sb680vlfryk15oyn2415v9d48'>
+            <connection class='excel-direct' cleaning='no' compat='no' dataRefreshTime='' filename='C:/Users/Nithin/AppData/Local/Temp/TableauTemp/2527567761/Data/datasets/Personal Consumption Expenditures.xlsx' interpretationMode='0' server='' validate='no' workgroup-auth-mode='as-is' />
+          </named-connection>
+        </named-connections>
+        <_.fcp.ObjectModelEncapsulateLegacy.false...relation connection='excel-direct.0n4sb680vlfryk15oyn2415v9d48' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:D14901:no:A1:D14901:0' header='yes' outcome='2'>
+            <column datatype='string' name='Category' ordinal='0' />
+            <column datatype='string' name='Sub-Category' ordinal='1' />
+            <column datatype='date' name='Month' ordinal='2' />
+            <column datatype='integer' name='Millions of Dollars' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.false...relation>
+        <_.fcp.ObjectModelEncapsulateLegacy.true...relation connection='excel-direct.0n4sb680vlfryk15oyn2415v9d48' name='Sheet1' table='[Sheet1$]' type='table'>
+          <columns gridOrigin='A1:D14901:no:A1:D14901:0' header='yes' outcome='2'>
+            <column datatype='string' name='Category' ordinal='0' />
+            <column datatype='string' name='Sub-Category' ordinal='1' />
+            <column datatype='date' name='Month' ordinal='2' />
+            <column datatype='integer' name='Millions of Dollars' ordinal='3' />
+          </columns>
+        </_.fcp.ObjectModelEncapsulateLegacy.true...relation>
+        <metadata-records>
+          <metadata-record class='capability'>
+            <remote-name />
+            <remote-type>0</remote-type>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias />
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='integer' name='context'>0</attribute>
+              <attribute datatype='string' name='gridOrigin'>&quot;A1:D14901:no:A1:D14901:0&quot;</attribute>
+              <attribute datatype='boolean' name='header'>true</attribute>
+              <attribute datatype='integer' name='outcome'>2</attribute>
+            </attributes>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Category]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Category</remote-alias>
+            <ordinal>0</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C4DF9737779E4B369FEF07F1F8839209]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Sub-Category</remote-name>
+            <remote-type>130</remote-type>
+            <local-name>[Sub-Category]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Sub-Category</remote-alias>
+            <ordinal>1</ordinal>
+            <local-type>string</local-type>
+            <aggregation>Count</aggregation>
+            <contains-null>true</contains-null>
+            <collation flag='1' name='LEN_RUS_S2' />
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;WSTR&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C4DF9737779E4B369FEF07F1F8839209]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Month</remote-name>
+            <remote-type>7</remote-type>
+            <local-name>[Month]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Month</remote-alias>
+            <ordinal>2</ordinal>
+            <local-type>date</local-type>
+            <aggregation>Year</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;DATE&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C4DF9737779E4B369FEF07F1F8839209]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+          <metadata-record class='column'>
+            <remote-name>Millions of Dollars</remote-name>
+            <remote-type>20</remote-type>
+            <local-name>[Millions of Dollars]</local-name>
+            <parent-name>[Sheet1]</parent-name>
+            <remote-alias>Millions of Dollars</remote-alias>
+            <ordinal>3</ordinal>
+            <local-type>integer</local-type>
+            <aggregation>Sum</aggregation>
+            <contains-null>true</contains-null>
+            <attributes>
+              <attribute datatype='string' name='DebugRemoteType'>&quot;I8&quot;</attribute>
+            </attributes>
+            <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C4DF9737779E4B369FEF07F1F8839209]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+          </metadata-record>
+        </metadata-records>
+      </connection>
+      <aliases enabled='yes' />
+      <column caption='2020 spending' datatype='integer' name='[2019 spending (copy)_885238838260633601]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if YEAR([Month]) = 2020 then [Millions of Dollars] end' />
+      </column>
+      <column caption='2018 spending' datatype='integer' name='[2019 spending (copy)_885238838274486279]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if YEAR([Month]) = 2018 then [Millions of Dollars] end' />
+      </column>
+      <column caption='March 2020 - 2019 percent change' datatype='real' default-format='*+0.0%;-0.0%' name='[2020 - 2019 percent change (copy)_1221319960496246791]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(sum([2020 spending (copy)_1221319960495980549])-sum([2020 March spending (copy)_1221319960496148486]))/sum([2020 March spending (copy)_1221319960496148486])' />
+      </column>
+      <column caption='2019 - 2018 percent change' datatype='real' default-format='*+0.0%;-0.0%' name='[2020 - 2019 percent change (copy)_885238838274572296]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(sum([Calculation_885238838260097024])-sum([2019 spending (copy)_885238838274486279]))/sum([2019 spending (copy)_885238838274486279])' />
+      </column>
+      <column caption='2019 March spending' datatype='integer' name='[2020 March spending (copy)_1221319960496148486]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if YEAR([Month]) = 2019 and MONTH([Month]) = 3 then [Millions of Dollars] end' />
+      </column>
+      <column caption='2018 March spending' datatype='integer' name='[2020 March spending (copy)_142144899835023360]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if YEAR([Month]) = 2018 and MONTH([Month]) = 3 then [Millions of Dollars] end' />
+      </column>
+      <column caption='2020 March spending' datatype='integer' name='[2020 spending (copy)_1221319960495980549]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if YEAR([Month]) = 2020 and MONTH([Month]) = 3 then [Millions of Dollars] end' />
+      </column>
+      <column caption='Dummy' datatype='string' name='[Calculation_1201898187120640000]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='&apos;dummy&apos;' />
+      </column>
+      <column caption='Year spending' datatype='string' name='[Calculation_142144899839762440]' role='dimension' type='nominal'>
+        <calculation class='tableau' formula='STR(YEAR([Month])) + &apos; SPENDING&apos;' />
+      </column>
+      <column caption='2019 spending' datatype='integer' name='[Calculation_885238838260097024]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='if YEAR([Month]) = 2019 then [Millions of Dollars] end' />
+      </column>
+      <column caption='Total Columns' datatype='integer' name='[Calculation_885238838260948994]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='4' />
+      </column>
+      <column caption='Column' datatype='integer' name='[Calculation_885238838261084163]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(INDEX() - 1) % [Calculation_885238838260948994]'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='Row' datatype='real' name='[Calculation_885238838261436420]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='((INDEX() - 1) - [Calculation_885238838261084163]) / [Calculation_885238838260948994]'>
+          <table-calc ordering-type='Rows' />
+        </calculation>
+      </column>
+      <column caption='2020 - 2019 percent change' datatype='real' default-format='*+0.0%;-0.0%' name='[Calculation_885238838262411269]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(sum([2019 spending (copy)_885238838260633601])-sum([Calculation_885238838260097024]))/sum([Calculation_885238838260097024])' />
+      </column>
+      <column caption='Category label' datatype='datetime' name='[Calculation_885238838280679433]' role='dimension' type='ordinal'>
+        <calculation class='tableau' formula='{MIN([Month])} + (({MAX([Month])} - {MIN([Month])})/2)' />
+      </column>
+      <column datatype='string' name='[Category]' role='dimension' type='nominal'>
+        <aliases>
+          <alias key='&quot;Alcoholic beverages&quot;' value='Alcoholic Beverages' />
+          <alias key='&quot;Cereals and bakery products&quot;' value='Cereals and Bakery products' />
+          <alias key='&quot;Coffee, tea, and other beverage materials&quot;' value='Coffee, Tea, and Other beverages' />
+          <alias key='&quot;Fats and oils&quot;' value='Fats and Oils' />
+          <alias key='&quot;Fish and seafood&quot;' value='Fish and Seafood' />
+          <alias key='&quot;Meats and poultry&quot;' value='Meats and Poultry' />
+          <alias key='&quot;Milk, dairy products, and eggs&quot;' value='Milk, Dairy products, and Eggs' />
+          <alias key='&quot;Mineral waters, soft drinks, and vegetable juices&quot;' value='Mineral waters and Soft drinks' />
+          <alias key='&quot;Sugar and sweets&quot;' value='Sugar and Sweets' />
+        </aliases>
+      </column>
+      <column caption='March 2019 - 2018 percent change' datatype='real' default-format='*+0.0%;-0.0%' name='[March 2020 - 2019 percent change (copy)_142144899835244546]' role='measure' type='quantitative'>
+        <calculation class='tableau' formula='(sum([2020 March spending (copy)_1221319960496148486])-sum([2020 March spending (copy)_142144899835023360]))/sum([2020 March spending (copy)_142144899835023360])' />
+      </column>
+      <column datatype='date' name='[Month]' role='dimension' type='ordinal' />
+      <_.fcp.ObjectModelTableType.true...column caption='Sheet1' datatype='table' name='[__tableau_internal_object_id__].[Sheet1_C4DF9737779E4B369FEF07F1F8839209]' role='measure' type='quantitative' />
+      <column-instance column='[Calculation_142144899839762440]' derivation='None' name='[none:Calculation_142144899839762440:nk]' pivot='key' type='nominal' />
+      <column-instance column='[2020 - 2019 percent change (copy)_1221319960496246791]' derivation='User' name='[usr:2020 - 2019 percent change (copy)_1221319960496246791:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[2020 - 2019 percent change (copy)_885238838274572296]' derivation='User' name='[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Calculation_885238838262411269]' derivation='User' name='[usr:Calculation_885238838262411269:qk]' pivot='key' type='quantitative' />
+      <column-instance column='[Month]' derivation='Year' name='[yr:Month:ok]' pivot='key' type='ordinal' />
+      <extract _.fcp.ObjectModelExtractV2.true...object-id='' _.fcp.VConnDownstreamExtractsWithWarnings.true...user-specific='false' count='-1' enabled='true' units='records'>
+        <connection authentication='auth-none' author-locale='en_GB' class='hyper' dbname='Data/Extracts/federated_08dxcli0uma4801g054jj0.hyper' default-settings='yes' schema='Extract' sslmode='' tablename='Extract' update-time='04/27/2021 06:55:37 PM' username=''>
+          <_.fcp.ObjectModelEncapsulateLegacy.false...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <_.fcp.ObjectModelEncapsulateLegacy.true...relation name='Extract' table='[Extract].[Extract]' type='table' />
+          <refresh>
+            <refresh-event add-from-file-path='Sheet1 (Personal Consumption Expenditures)' increment-value='%null%' refresh-type='create' rows-inserted='14900' timestamp-start='2021-04-27 18:55:37.216' />
+          </refresh>
+          <metadata-records>
+            <metadata-record class='column'>
+              <remote-name>Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Category</remote-alias>
+              <ordinal>0</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>11</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C4DF9737779E4B369FEF07F1F8839209]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Sub-Category</remote-name>
+              <remote-type>129</remote-type>
+              <local-name>[Sub-Category]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Sub-Category</remote-alias>
+              <ordinal>1</ordinal>
+              <family>Sheet1</family>
+              <local-type>string</local-type>
+              <aggregation>Count</aggregation>
+              <approx-count>20</approx-count>
+              <contains-null>true</contains-null>
+              <collation flag='1' name='LEN_RUS_S2' />
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C4DF9737779E4B369FEF07F1F8839209]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Month</remote-name>
+              <remote-type>133</remote-type>
+              <local-name>[Month]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Month</remote-alias>
+              <ordinal>2</ordinal>
+              <family>Sheet1</family>
+              <local-type>date</local-type>
+              <aggregation>Year</aggregation>
+              <approx-count>1347</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C4DF9737779E4B369FEF07F1F8839209]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+            <metadata-record class='column'>
+              <remote-name>Millions of Dollars</remote-name>
+              <remote-type>20</remote-type>
+              <local-name>[Millions of Dollars]</local-name>
+              <parent-name>[Extract]</parent-name>
+              <remote-alias>Millions of Dollars</remote-alias>
+              <ordinal>3</ordinal>
+              <family>Sheet1</family>
+              <local-type>integer</local-type>
+              <aggregation>Sum</aggregation>
+              <approx-count>7159</approx-count>
+              <contains-null>true</contains-null>
+              <_.fcp.ObjectModelEncapsulateLegacy.true...object-id>[Sheet1_C4DF9737779E4B369FEF07F1F8839209]</_.fcp.ObjectModelEncapsulateLegacy.true...object-id>
+            </metadata-record>
+          </metadata-records>
+        </connection>
+      </extract>
+      <layout _.fcp.SchemaViewerObjectModel.false...dim-percentage='0.5' _.fcp.SchemaViewerObjectModel.false...measure-percentage='0.4' dim-ordering='alphabetic' measure-ordering='alphabetic' show-aliased-fields='true' show-structure='true' />
+      <style>
+        <style-rule element='mark'>
+          <encoding attr='color' field='[yr:Month:ok]' type='palette'>
+            <map to='#4e79a7'>
+              <bucket>2018</bucket>
+            </map>
+            <map to='#555555'>
+              <bucket>2019</bucket>
+            </map>
+            <map to='#5d8aa8'>
+              <bucket>2020</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[:Measure Names]' palette='purple_10_0' type='palette'>
+            <map to='#5d8aa8'>
+              <bucket>&quot;[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_1221319960496246791:qk]&quot;</bucket>
+            </map>
+            <map to='#7c4d79'>
+              <bucket>&quot;[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838262411269:qk]&quot;</bucket>
+            </map>
+            <map to='#eec9e5'>
+              <bucket>&quot;[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]&quot;</bucket>
+            </map>
+          </encoding>
+          <encoding attr='color' field='[none:Calculation_142144899839762440:nk]' type='palette'>
+            <map to='#1e2761'>
+              <bucket>&quot;2020 SPENDING&quot;</bucket>
+            </map>
+            <map to='#555555'>
+              <bucket>&quot;2019 Spending&quot;</bucket>
+            </map>
+            <map to='#5d8aa8'>
+              <bucket>&quot;2020 Spending&quot;</bucket>
+            </map>
+            <map to='#7a2048'>
+              <bucket>&quot;2019 SPENDING&quot;</bucket>
+            </map>
+          </encoding>
+        </style-rule>
+      </style>
+      <semantic-values>
+        <semantic-value key='[Country].[Name]' value='&quot;United States&quot;' />
+      </semantic-values>
+      <filter class='categorical' column='[yr:Month:ok]' filter-group='2'>
+        <groupfilter function='union' user:ui-domain='database' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+          <groupfilter function='member' level='[yr:Month:ok]' member='2018' />
+          <groupfilter function='member' level='[yr:Month:ok]' member='2019' />
+          <groupfilter function='member' level='[yr:Month:ok]' member='2020' />
+        </groupfilter>
+      </filter>
+      <_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+        <objects>
+          <object caption='Sheet1' id='Sheet1_C4DF9737779E4B369FEF07F1F8839209'>
+            <properties context=''>
+              <relation connection='excel-direct.0n4sb680vlfryk15oyn2415v9d48' name='Sheet1' table='[Sheet1$]' type='table'>
+                <columns gridOrigin='A1:D14901:no:A1:D14901:0' header='yes' outcome='2'>
+                  <column datatype='string' name='Category' ordinal='0' />
+                  <column datatype='string' name='Sub-Category' ordinal='1' />
+                  <column datatype='date' name='Month' ordinal='2' />
+                  <column datatype='integer' name='Millions of Dollars' ordinal='3' />
+                </columns>
+              </relation>
+            </properties>
+            <properties context='extract'>
+              <relation name='Extract' table='[Extract].[Extract]' type='table' />
+            </properties>
+          </object>
+        </objects>
+      </_.fcp.ObjectModelEncapsulateLegacy.true...object-graph>
+    </datasource>
+  </datasources>
+  <actions>
+    <action caption='Highlight 1 (generated)' name='[Action1_CA96F8E979874AF0A24DBD9B07058D3F]'>
+      <activation auto-clear='true' type='on-select' />
+      <source type='sheet' worksheet='Year' />
+      <command command='tsc:brush'>
+        <param name='field-captions' value='YEAR(Month)' />
+        <param name='target' value='Year' />
+      </command>
+    </action>
+  </actions>
+  <worksheets>
+    <worksheet name='Overall $ increase in 2020'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Personal Consumption Expenditures)' name='federated.08dxcli0uma4801g054jj0gkz3k4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.08dxcli0uma4801g054jj0gkz3k4'>
+            <column caption='2018 spending' datatype='integer' name='[2019 spending (copy)_885238838274486279]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if YEAR([Month]) = 2018 then [Millions of Dollars] end' />
+            </column>
+            <column caption='March 2020 - 2019 percent change' datatype='real' default-format='*+0.0%;-0.0%' name='[2020 - 2019 percent change (copy)_1221319960496246791]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(sum([2020 spending (copy)_1221319960495980549])-sum([2020 March spending (copy)_1221319960496148486]))/sum([2020 March spending (copy)_1221319960496148486])' />
+            </column>
+            <column caption='2019 - 2018 percent change' datatype='real' default-format='*+0.0%;-0.0%' name='[2020 - 2019 percent change (copy)_885238838274572296]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(sum([Calculation_885238838260097024])-sum([2019 spending (copy)_885238838274486279]))/sum([2019 spending (copy)_885238838274486279])' />
+            </column>
+            <column caption='2019 March spending' datatype='integer' name='[2020 March spending (copy)_1221319960496148486]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if YEAR([Month]) = 2019 and MONTH([Month]) = 3 then [Millions of Dollars] end' />
+            </column>
+            <column caption='2018 March spending' datatype='integer' name='[2020 March spending (copy)_142144899835023360]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if YEAR([Month]) = 2018 and MONTH([Month]) = 3 then [Millions of Dollars] end' />
+            </column>
+            <column caption='2020 March spending' datatype='integer' name='[2020 spending (copy)_1221319960495980549]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if YEAR([Month]) = 2020 and MONTH([Month]) = 3 then [Millions of Dollars] end' />
+            </column>
+            <column caption='2019 spending' datatype='integer' name='[Calculation_885238838260097024]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if YEAR([Month]) = 2019 then [Millions of Dollars] end' />
+            </column>
+            <column caption='March 2019 - 2018 percent change' datatype='real' default-format='*+0.0%;-0.0%' name='[March 2020 - 2019 percent change (copy)_142144899835244546]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(sum([2020 March spending (copy)_1221319960496148486])-sum([2020 March spending (copy)_142144899835023360]))/sum([2020 March spending (copy)_142144899835023360])' />
+            </column>
+            <column datatype='integer' name='[Millions of Dollars]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Month]' role='dimension' type='ordinal' />
+            <column-instance column='[2020 - 2019 percent change (copy)_1221319960496246791]' derivation='User' name='[usr:2020 - 2019 percent change (copy)_1221319960496246791:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2020 - 2019 percent change (copy)_885238838274572296]' derivation='User' name='[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[March 2020 - 2019 percent change (copy)_142144899835244546]' derivation='User' name='[usr:March 2020 - 2019 percent change (copy)_142144899835244546:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-disallow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_1221319960496246791:qk]' />
+              <text column='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]' />
+              <text column='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:March 2020 - 2019 percent change (copy)_142144899835244546:qk]' />
+            </encodings>
+            <customized-tooltip show-buttons='false'>
+              <formatted-text>
+                <run fontcolor='#787878'>2019 - 2018 percent change:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>2020 - 2019 percent change:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_1221319960496246791:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#2e4356' fontsize='24'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_1221319960496246791:qk]>]]></run>
+                <run bold='true' fontcolor='#555555' fontsize='24'>Æ </run>
+                <run>Æ&#10;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#555555' fontsize='11'>March | 2020 vs 2019</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#555555'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:March 2020 - 2019 percent change (copy)_142144899835244546:qk]> | 2019 vs 2018]]></run>
+                <run>Æ&#10;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <tooltip-style tooltip-mode='none' />
+      </table>
+      <simple-id uuid='{F58D8418-B525-4DF9-B57E-98D3A56E8002}' />
+    </worksheet>
+    <worksheet name='Overall increase in 2020'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Personal Consumption Expenditures)' name='federated.08dxcli0uma4801g054jj0gkz3k4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.08dxcli0uma4801g054jj0gkz3k4'>
+            <column caption='2020 spending' datatype='integer' name='[2019 spending (copy)_885238838260633601]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if YEAR([Month]) = 2020 then [Millions of Dollars] end' />
+            </column>
+            <column caption='2018 spending' datatype='integer' name='[2019 spending (copy)_885238838274486279]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if YEAR([Month]) = 2018 then [Millions of Dollars] end' />
+            </column>
+            <column caption='2019 - 2018 percent change' datatype='real' default-format='*+0.0%;-0.0%' name='[2020 - 2019 percent change (copy)_885238838274572296]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(sum([Calculation_885238838260097024])-sum([2019 spending (copy)_885238838274486279]))/sum([2019 spending (copy)_885238838274486279])' />
+            </column>
+            <column caption='2019 spending' datatype='integer' name='[Calculation_885238838260097024]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if YEAR([Month]) = 2019 then [Millions of Dollars] end' />
+            </column>
+            <column caption='2020 - 2019 percent change' datatype='real' default-format='*+0.0%;-0.0%' name='[Calculation_885238838262411269]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(sum([2019 spending (copy)_885238838260633601])-sum([Calculation_885238838260097024]))/sum([Calculation_885238838260097024])' />
+            </column>
+            <column datatype='integer' name='[Millions of Dollars]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Month]' role='dimension' type='ordinal' />
+            <column-instance column='[2020 - 2019 percent change (copy)_885238838274572296]' derivation='User' name='[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_885238838262411269]' derivation='User' name='[usr:Calculation_885238838262411269:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-disallow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <encodings>
+              <text column='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838262411269:qk]' />
+              <text column='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]' />
+            </encodings>
+            <customized-tooltip show-buttons='false'>
+              <formatted-text>
+                <run fontcolor='#787878'>2019 - 2018 percent change:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]>]]></run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#787878'>2020 - 2019 percent change:&#9;</run>
+                <run bold='true'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838262411269:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#2e4356' fontsize='24'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838262411269:qk]>]]></run>
+                <run bold='true' fontcolor='#2e4356'>Æ </run>
+                <run>Æ&#10;</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#555555' fontsize='11'>2020 vs 2019</run>
+                <run>Æ&#10;</run>
+                <run fontcolor='#555555'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]> | 2019 vs 2018]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows />
+        <cols />
+        <tooltip-style tooltip-mode='none' />
+      </table>
+      <simple-id uuid='{FB4C5C14-6904-4A3D-A96D-9BE2E64905A7}' />
+    </worksheet>
+    <worksheet name='Panic shopping'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Personal Consumption Expenditures)' name='federated.08dxcli0uma4801g054jj0gkz3k4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.08dxcli0uma4801g054jj0gkz3k4'>
+            <column caption='2020 spending' datatype='integer' name='[2019 spending (copy)_885238838260633601]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if YEAR([Month]) = 2020 then [Millions of Dollars] end' />
+            </column>
+            <column caption='2018 spending' datatype='integer' name='[2019 spending (copy)_885238838274486279]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if YEAR([Month]) = 2018 then [Millions of Dollars] end' />
+            </column>
+            <column caption='March 2020 - 2019 percent change' datatype='real' default-format='*+0.0%;-0.0%' name='[2020 - 2019 percent change (copy)_1221319960496246791]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(sum([2020 spending (copy)_1221319960495980549])-sum([2020 March spending (copy)_1221319960496148486]))/sum([2020 March spending (copy)_1221319960496148486])' />
+            </column>
+            <column caption='2019 - 2018 percent change' datatype='real' default-format='*+0.0%;-0.0%' name='[2020 - 2019 percent change (copy)_885238838274572296]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(sum([Calculation_885238838260097024])-sum([2019 spending (copy)_885238838274486279]))/sum([2019 spending (copy)_885238838274486279])' />
+            </column>
+            <column caption='2019 March spending' datatype='integer' name='[2020 March spending (copy)_1221319960496148486]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if YEAR([Month]) = 2019 and MONTH([Month]) = 3 then [Millions of Dollars] end' />
+            </column>
+            <column caption='2020 March spending' datatype='integer' name='[2020 spending (copy)_1221319960495980549]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if YEAR([Month]) = 2020 and MONTH([Month]) = 3 then [Millions of Dollars] end' />
+            </column>
+            <column caption='2019 spending' datatype='integer' name='[Calculation_885238838260097024]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if YEAR([Month]) = 2019 then [Millions of Dollars] end' />
+            </column>
+            <column caption='Total Columns' datatype='integer' name='[Calculation_885238838260948994]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='4' />
+            </column>
+            <column caption='Column' datatype='integer' name='[Calculation_885238838261084163]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(INDEX() - 1) % [Calculation_885238838260948994]'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Row' datatype='real' name='[Calculation_885238838261436420]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='((INDEX() - 1) - [Calculation_885238838261084163]) / [Calculation_885238838260948994]'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='2020 - 2019 percent change' datatype='real' default-format='*+0.0%;-0.0%' name='[Calculation_885238838262411269]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(sum([2019 spending (copy)_885238838260633601])-sum([Calculation_885238838260097024]))/sum([Calculation_885238838260097024])' />
+            </column>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Alcoholic beverages&quot;' value='Alcoholic Beverages' />
+                <alias key='&quot;Cereals and bakery products&quot;' value='Cereals and Bakery products' />
+                <alias key='&quot;Coffee, tea, and other beverage materials&quot;' value='Coffee, Tea, and Other beverages' />
+                <alias key='&quot;Fats and oils&quot;' value='Fats and Oils' />
+                <alias key='&quot;Fish and seafood&quot;' value='Fish and Seafood' />
+                <alias key='&quot;Meats and poultry&quot;' value='Meats and Poultry' />
+                <alias key='&quot;Milk, dairy products, and eggs&quot;' value='Milk, Dairy products, and Eggs' />
+                <alias key='&quot;Mineral waters, soft drinks, and vegetable juices&quot;' value='Mineral waters and Soft drinks' />
+                <alias key='&quot;Sugar and sweets&quot;' value='Sugar and Sweets' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[Millions of Dollars]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Month]' role='dimension' type='ordinal' />
+            <column-instance column='[Month]' derivation='Month' name='[mn:Month:ok]' pivot='key' type='ordinal' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[2020 - 2019 percent change (copy)_1221319960496246791]' derivation='User' name='[usr:2020 - 2019 percent change (copy)_1221319960496246791:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[2020 - 2019 percent change (copy)_885238838274572296]' derivation='User' name='[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_885238838261084163]' derivation='User' name='[usr:Calculation_885238838261084163:ok:1]' pivot='key' type='ordinal'>
+              <table-calc ordering-field='[federated.08dxcli0uma4801g054jj0gkz3k4].[Category]' ordering-type='Field' />
+            </column-instance>
+            <column-instance column='[Calculation_885238838261436420]' derivation='User' name='[usr:Calculation_885238838261436420:ok:1]' pivot='key' type='ordinal'>
+              <table-calc ordering-field='[federated.08dxcli0uma4801g054jj0gkz3k4].[Category]' ordering-type='Field' />
+              <table-calc field='[federated.08dxcli0uma4801g054jj0gkz3k4].[Calculation_885238838261084163]' ordering-field='[federated.08dxcli0uma4801g054jj0gkz3k4].[Category]' ordering-type='Field' />
+            </column-instance>
+            <column-instance column='[Calculation_885238838262411269]' derivation='User' name='[usr:Calculation_885238838262411269:qk]' pivot='key' type='quantitative' />
+          </datasource-dependencies>
+          <computed-sort column='[federated.08dxcli0uma4801g054jj0gkz3k4].[none:Category:nk]' direction='DESC' using='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_1221319960496246791:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='display' class='0' field='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838262411269:qk]' scope='rows' value='false' />
+            <encoding attr='space' class='0' field='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]' field-type='quantitative' fold='true' scope='rows' synchronized='true' type='space' />
+            <format attr='display' class='0' field='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]' scope='rows' value='false' />
+            <format attr='tick-color' value='#00000000' />
+            <encoding attr='space' class='0' field='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838262411269:qk]' field-type='quantitative' max='0.40000000000000002' min='0.0' range-type='fixed' scope='rows' type='space' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838261436420:ok:1]' value='false' />
+            <format attr='display' field='[federated.08dxcli0uma4801g054jj0gkz3k4].[mn:Month:ok]' value='false' />
+            <format attr='display' field='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838261084163:ok:1]' value='false' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='5' selection-relaxation-option='selection-relaxation-disallow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <lod column='[federated.08dxcli0uma4801g054jj0gkz3k4].[none:Category:nk]' />
+              <color column='[federated.08dxcli0uma4801g054jj0gkz3k4].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip show-buttons='false'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#1d2d3e'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[mn:Month:ok]> 2020]]></run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run bold='true' fontalignment='1' fontcolor='#1d2d3e'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[none:Category:nk]>]]></run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run bold='true' fontalignment='1' fontcolor='#1d2d3e' fontsize='18'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838262411269:qk]>]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='8'>&lt;</run>
+                <run fontsize='8'>[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838262411269:qk]</run>
+                <run fontsize='8'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-range-min' value='false' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#555555' />
+                <format attr='mark-color' value='#bf646f' />
+                <format attr='line-interpolation' value='linear' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='6' selection-relaxation-option='selection-relaxation-disallow' y-axis-name='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838262411269:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <text column='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838262411269:qk]' />
+              <lod column='[federated.08dxcli0uma4801g054jj0gkz3k4].[none:Category:nk]' />
+              <color column='[federated.08dxcli0uma4801g054jj0gkz3k4].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip show-buttons='false'>
+              <formatted-text>
+                <run fontalignment='1' fontcolor='#1d2d3e'><![CDATA[During <[federated.08dxcli0uma4801g054jj0gkz3k4].[mn:Month:ok]> 2020 consumer spending for <[federated.08dxcli0uma4801g054jj0gkz3k4].[none:Category:nk]> increased by]]></run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run bold='true' fontalignment='1' fontcolor='#1d2d3e' fontsize='14'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838262411269:qk]>]]></run>
+                <run bold='true' fontalignment='1' fontcolor='#1d2d3e' fontsize='11'>Æ </run>
+                <run fontalignment='1' fontcolor='#1d2d3e'>when compared to</run>
+                <run bold='true' fontalignment='1' fontcolor='#1d2d3e'>Æ </run>
+                <run fontalignment='1' fontcolor='#1d2d3e'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[mn:Month:ok]> 2019]]></run>
+                <run fontalignment='1'>Æ&#10;&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run bold='true' fontcolor='#bf646f'>&lt;</run>
+                <run bold='true' fontcolor='#bf646f'>[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838262411269:qk]</run>
+                <run bold='true' fontcolor='#bf646f'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+                <format attr='vertical-align' value='center' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-range-min' value='false' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#555555' />
+                <format attr='mark-color' value='#bf646f' />
+                <format attr='line-interpolation' value='linear' />
+                <format attr='mark-transparency' value='132' />
+              </style-rule>
+            </style>
+          </pane>
+          <pane id='7' selection-relaxation-option='selection-relaxation-disallow' y-axis-name='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Area' />
+            <encodings>
+              <text column='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]' />
+              <lod column='[federated.08dxcli0uma4801g054jj0gkz3k4].[none:Category:nk]' />
+              <color column='[federated.08dxcli0uma4801g054jj0gkz3k4].[:Measure Names]' />
+            </encodings>
+            <customized-tooltip show-buttons='false'>
+              <formatted-text>
+                <run fontalignment='1' fontcolor='#1d2d3e'><![CDATA[During <[federated.08dxcli0uma4801g054jj0gkz3k4].[mn:Month:ok]> 2019 consumer spending for <[federated.08dxcli0uma4801g054jj0gkz3k4].[none:Category:nk]> increased by]]></run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run bold='true' fontalignment='1' fontcolor='#1d2d3e' fontsize='14'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]>]]></run>
+                <run bold='true' fontalignment='1' fontcolor='#1d2d3e' fontsize='11'>Æ </run>
+                <run fontalignment='1' fontcolor='#1d2d3e'>when compared to</run>
+                <run bold='true' fontalignment='1' fontcolor='#1d2d3e'>Æ </run>
+                <run fontalignment='1' fontcolor='#1d2d3e'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[mn:Month:ok]> 2018]]></run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run fontsize='8'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]>]]></run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='right' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-cull' value='false' />
+                <format attr='mark-labels-mode' value='range' />
+                <format attr='mark-labels-range-min' value='false' />
+                <format attr='mark-labels-show' value='false' />
+                <format attr='has-stroke' value='true' />
+                <format attr='stroke-color' value='#555555' />
+                <format attr='mark-color' value='#555555' />
+                <format attr='line-interpolation' value='linear' />
+                <format attr='mark-transparency' value='132' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>([federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838261436420:ok:1] * ([federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838262411269:qk] + [federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_885238838274572296:qk]))</rows>
+        <cols>([federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838261084163:ok:1] / [federated.08dxcli0uma4801g054jj0gkz3k4].[mn:Month:ok])</cols>
+      </table>
+      <simple-id uuid='{3A62520E-CBC5-49AF-942C-AE28051A166F}' />
+    </worksheet>
+    <worksheet name='Panic shopping - labels'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Personal Consumption Expenditures)' name='federated.08dxcli0uma4801g054jj0gkz3k4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.08dxcli0uma4801g054jj0gkz3k4'>
+            <column caption='March 2020 - 2019 percent change' datatype='real' default-format='*+0.0%;-0.0%' name='[2020 - 2019 percent change (copy)_1221319960496246791]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(sum([2020 spending (copy)_1221319960495980549])-sum([2020 March spending (copy)_1221319960496148486]))/sum([2020 March spending (copy)_1221319960496148486])' />
+            </column>
+            <column caption='2019 March spending' datatype='integer' name='[2020 March spending (copy)_1221319960496148486]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if YEAR([Month]) = 2019 and MONTH([Month]) = 3 then [Millions of Dollars] end' />
+            </column>
+            <column caption='2020 March spending' datatype='integer' name='[2020 spending (copy)_1221319960495980549]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='if YEAR([Month]) = 2020 and MONTH([Month]) = 3 then [Millions of Dollars] end' />
+            </column>
+            <column caption='Total Columns' datatype='integer' name='[Calculation_885238838260948994]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='4' />
+            </column>
+            <column caption='Column' datatype='integer' name='[Calculation_885238838261084163]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='(INDEX() - 1) % [Calculation_885238838260948994]'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column caption='Row' datatype='real' name='[Calculation_885238838261436420]' role='measure' type='quantitative'>
+              <calculation class='tableau' formula='((INDEX() - 1) - [Calculation_885238838261084163]) / [Calculation_885238838260948994]'>
+                <table-calc ordering-type='Rows' />
+              </calculation>
+            </column>
+            <column datatype='string' name='[Category]' role='dimension' type='nominal'>
+              <aliases>
+                <alias key='&quot;Alcoholic beverages&quot;' value='Alcoholic Beverages' />
+                <alias key='&quot;Cereals and bakery products&quot;' value='Cereals and Bakery products' />
+                <alias key='&quot;Coffee, tea, and other beverage materials&quot;' value='Coffee, Tea, and Other beverages' />
+                <alias key='&quot;Fats and oils&quot;' value='Fats and Oils' />
+                <alias key='&quot;Fish and seafood&quot;' value='Fish and Seafood' />
+                <alias key='&quot;Meats and poultry&quot;' value='Meats and Poultry' />
+                <alias key='&quot;Milk, dairy products, and eggs&quot;' value='Milk, Dairy products, and Eggs' />
+                <alias key='&quot;Mineral waters, soft drinks, and vegetable juices&quot;' value='Mineral waters and Soft drinks' />
+                <alias key='&quot;Sugar and sweets&quot;' value='Sugar and Sweets' />
+              </aliases>
+            </column>
+            <column datatype='integer' name='[Millions of Dollars]' role='measure' type='quantitative' />
+            <column datatype='date' name='[Month]' role='dimension' type='ordinal' />
+            <column-instance column='[Category]' derivation='None' name='[none:Category:nk]' pivot='key' type='nominal' />
+            <column-instance column='[2020 - 2019 percent change (copy)_1221319960496246791]' derivation='User' name='[usr:2020 - 2019 percent change (copy)_1221319960496246791:qk]' pivot='key' type='quantitative' />
+            <column-instance column='[Calculation_885238838261084163]' derivation='User' name='[usr:Calculation_885238838261084163:ok:1]' pivot='key' type='ordinal'>
+              <table-calc ordering-field='[federated.08dxcli0uma4801g054jj0gkz3k4].[Category]' ordering-type='Field' />
+            </column-instance>
+            <column-instance column='[Calculation_885238838261436420]' derivation='User' name='[usr:Calculation_885238838261436420:ok:1]' pivot='key' type='ordinal'>
+              <table-calc ordering-field='[federated.08dxcli0uma4801g054jj0gkz3k4].[Category]' ordering-type='Field' />
+              <table-calc field='[federated.08dxcli0uma4801g054jj0gkz3k4].[Calculation_885238838261084163]' ordering-field='[federated.08dxcli0uma4801g054jj0gkz3k4].[Category]' ordering-type='Field' />
+            </column-instance>
+          </datasource-dependencies>
+          <computed-sort column='[federated.08dxcli0uma4801g054jj0gkz3k4].[none:Category:nk]' direction='DESC' using='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:2020 - 2019 percent change (copy)_1221319960496246791:qk]' />
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='axis'>
+            <format attr='tick-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='label'>
+            <format attr='display' field='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838261436420:ok:1]' value='false' />
+            <format attr='display' field='[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838261084163:ok:1]' value='false' />
+          </style-rule>
+          <style-rule element='pane'>
+            <format attr='band-color' scope='rows' value='#00000000' />
+          </style-rule>
+          <style-rule element='table'>
+            <format attr='band-size' scope='rows' value='1' />
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='cols' value='false' />
+          </style-rule>
+          <style-rule element='dropline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='gridline'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+          </style-rule>
+          <style-rule element='zeroline'>
+            <format attr='stroke-size' value='0' />
+            <format attr='line-visibility' value='off' />
+          </style-rule>
+          <style-rule element='table-div'>
+            <format attr='stroke-size' scope='rows' value='0' />
+            <format attr='line-visibility' scope='rows' value='off' />
+            <format attr='stroke-size' scope='cols' value='0' />
+            <format attr='line-visibility' scope='cols' value='off' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane id='6' selection-relaxation-option='selection-relaxation-disallow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Text' />
+            <mark-sizing mark-sizing-setting='marks-scaling-off' />
+            <encodings>
+              <text column='[federated.08dxcli0uma4801g054jj0gkz3k4].[none:Category:nk]' />
+            </encodings>
+            <customized-tooltip show-buttons='false'>
+              <formatted-text>
+                <run bold='true' fontalignment='1' fontcolor='#1d2d3e' fontsize='12'><![CDATA[<[federated.08dxcli0uma4801g054jj0gkz3k4].[mn:Month:ok]>]]></run>
+                <run bold='true' fontalignment='1' fontcolor='#1d2d3e'>Æ </run>
+                <run bold='true' fontalignment='1' fontcolor='#1d2d3e' fontsize='8'>2020 vs 2019</run>
+                <run fontalignment='1'>Æ&#10;</run>
+                <run fontalignment='1'>Æ&#10;</run>
+              </formatted-text>
+            </customized-tooltip>
+            <customized-label>
+              <formatted-text>
+                <run fontcolor='#1d2d3e' fontsize='10'>&lt;</run>
+                <run fontcolor='#1d2d3e' fontsize='10'>[federated.08dxcli0uma4801g054jj0gkz3k4].[none:Category:nk]</run>
+                <run fontcolor='#1d2d3e' fontsize='10'>&gt;</run>
+              </formatted-text>
+            </customized-label>
+            <style>
+              <style-rule element='cell'>
+                <format attr='text-align' value='center' />
+                <format attr='vertical-align' value='top' />
+                <format attr='wrap' value='on' />
+              </style-rule>
+              <style-rule element='mark'>
+                <format attr='mark-labels-show' value='true' />
+                <format attr='mark-labels-range-min' value='false' />
+                <format attr='size' value='1.4612706899642944' />
+                <format attr='mark-labels-range-max' value='true' />
+                <format attr='mark-labels-cull' value='true' />
+                <format attr='mark-labels-mode' value='all' />
+                <format attr='mark-color' value='#ffffff' />
+                <format attr='line-interpolation' value='linear' />
+                <format attr='has-stroke' value='false' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838261436420:ok:1]</rows>
+        <cols>[federated.08dxcli0uma4801g054jj0gkz3k4].[usr:Calculation_885238838261084163:ok:1]</cols>
+      </table>
+      <simple-id uuid='{71D65520-7C89-4CDA-AFA7-8AA8E6609932}' />
+    </worksheet>
+    <worksheet name='Year'>
+      <table>
+        <view>
+          <datasources>
+            <datasource caption='Sheet1 (Personal Consumption Expenditures)' name='federated.08dxcli0uma4801g054jj0gkz3k4' />
+          </datasources>
+          <datasource-dependencies datasource='federated.08dxcli0uma4801g054jj0gkz3k4'>
+            <column caption='Year spending' datatype='string' name='[Calculation_142144899839762440]' role='dimension' type='nominal'>
+              <calculation class='tableau' formula='STR(YEAR([Month])) + &apos; SPENDING&apos;' />
+            </column>
+            <column datatype='date' name='[Month]' role='dimension' type='ordinal' />
+            <column-instance column='[Calculation_142144899839762440]' derivation='None' name='[none:Calculation_142144899839762440:nk]' pivot='key' type='nominal' />
+            <column-instance column='[Month]' derivation='Year' name='[yr:Month:ok]' pivot='key' type='ordinal' />
+          </datasource-dependencies>
+          <filter class='categorical' column='[federated.08dxcli0uma4801g054jj0gkz3k4].[yr:Month:ok]'>
+            <groupfilter function='union' user:ui-domain='relevant' user:ui-enumeration='inclusive' user:ui-marker='enumerate'>
+              <groupfilter function='member' level='[yr:Month:ok]' member='2019' />
+              <groupfilter function='member' level='[yr:Month:ok]' member='2020' />
+            </groupfilter>
+          </filter>
+          <slices>
+            <column>[federated.08dxcli0uma4801g054jj0gkz3k4].[yr:Month:ok]</column>
+          </slices>
+          <aggregation value='true' />
+        </view>
+        <style>
+          <style-rule element='table'>
+            <format attr='background-color' value='#00000000' />
+          </style-rule>
+          <style-rule element='worksheet'>
+            <format attr='display-field-labels' scope='rows' value='false' />
+          </style-rule>
+        </style>
+        <panes>
+          <pane selection-relaxation-option='selection-relaxation-allow'>
+            <view>
+              <breakdown value='auto' />
+            </view>
+            <mark class='Square' />
+            <encodings>
+              <color column='[federated.08dxcli0uma4801g054jj0gkz3k4].[none:Calculation_142144899839762440:nk]' />
+            </encodings>
+            <style>
+              <style-rule element='mark'>
+                <format attr='mark-transparency' value='139' />
+              </style-rule>
+            </style>
+          </pane>
+        </panes>
+        <rows>[federated.08dxcli0uma4801g054jj0gkz3k4].[none:Calculation_142144899839762440:nk]</rows>
+        <cols />
+      </table>
+      <simple-id uuid='{1078180C-55BA-461E-8534-1AF746759155}' />
+    </worksheet>
+  </worksheets>
+  <dashboards>
+    <dashboard name='Panic shoppers and the pandemic'>
+      <repository-location derived-from='http://localhost:9100/workbooks/PanicshoppersandthePandemic/Panicshoppersandthepandemic?rev=' id='Panicshoppersandthepandemic' path='/workbooks/PanicshoppersandthePandemic' revision='' />
+      <style />
+      <size maxheight='1000' maxwidth='1500' minheight='1000' minwidth='1500' sizing-mode='fixed' />
+      <zones>
+        <zone h='100' id='20' name='Year' show-title='false' w='67' x='54867' y='89800' />
+        <zone h='100000' id='1' param='vert' type-v2='layout-flow' w='100000' x='0' y='0'>
+          <zone fixed-size='122' forceUpdate='true' h='13000' id='2' is-fixed='true' type-v2='text' w='99866' x='67' y='100'>
+            <formatted-text>
+              <run bold='true' fontalignment='1' fontcolor='#2e4356' fontsize='36'>P A N I C    S H O P P E R S</run>
+              <run fontalignment='1'>Æ&#10;</run>
+              <run fontalignment='1' fontcolor='#2e4356' fontsize='15'>                                                                                 AND THE PANDEMIC</run>
+              <run fontalignment='1'>Æ&#10;</run>
+            </formatted-text>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+              <format attr='padding-left' value='30' />
+            </zone-style>
+          </zone>
+          <zone fixed-size='173' h='17300' id='9' is-fixed='true' param='horz' type-v2='layout-flow' w='99866' x='67' y='13100'>
+            <zone fixed-size='475' h='17300' id='25' is-fixed='true' type-v2='empty' w='32200' x='67' y='13100'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+            <zone fixed-size='492' h='17300' id='11' is-fixed='true' type-v2='empty' w='33333' x='32267' y='13100'>
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='4' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone fixed-size='12' h='2000' id='10' is-fixed='true' type-v2='empty' w='99866' x='67' y='30400'>
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='4' />
+            </zone-style>
+          </zone>
+          <zone fixed-size='636' h='63600' id='3' is-fixed='true' param='vert' type-v2='layout-flow' w='99866' x='67' y='32400'>
+            <zone fixed-size='632' h='63200' id='5' is-fixed='true' name='Panic shopping - labels' show-title='false' w='99866' x='67' y='32400'>
+              <layout-cache type-h='cell' type-w='fixed' />
+              <zone-style>
+                <format attr='border-color' value='#000000' />
+                <format attr='border-style' value='none' />
+                <format attr='border-width' value='0' />
+                <format attr='margin' value='0' />
+                <format attr='padding' value='20' />
+              </zone-style>
+            </zone>
+          </zone>
+          <zone-style>
+            <format attr='border-color' value='#1e2761' />
+            <format attr='border-style' value='solid' />
+            <format attr='border-width' value='1' />
+            <format attr='background-color' value='#ffffff84' />
+          </zone-style>
+        </zone>
+        <zone h='64100' id='6' name='Panic shopping' show-title='false' w='100000' x='0' y='30800'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='padding' value='20' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='3000' id='14' type-v2='text' w='100000' x='0' y='97000'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#1d2d3e' fontsize='10'>Design : Nithin Nizar | Data: Bureau of Economic Analysis #MakeoverMonday</run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='padding' value='0' />
+            <format attr='padding-right' value='10' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='3000' id='15' type-v2='text' w='100000' x='0' y='93500'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#1d2d3e' fontsize='10'>PERCENTAGE CHANGE IN CONSUMER SPENDING WHEN COMPARED TO PRIOR YEAR</run>
+          </formatted-text>
+        </zone>
+        <zone h='5300' id='21' name='Year' pane-specification-id='0' param='[federated.08dxcli0uma4801g054jj0gkz3k4].[none:Calculation_142144899839762440:nk]' show-title='false' type-v2='color' w='16867' x='82200' y='88600' />
+        <zone forceUpdate='true' h='3000' id='22' type-v2='text' w='100000' x='0' y='9000'>
+          <formatted-text>
+            <run fontcolor='#2e4356' fontname='Bahnschrift Light' fontsize='12'>Æ  </run>
+          </formatted-text>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='padding-left' value='30' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='3000' id='18' type-v2='text' w='15867' x='53733' y='26900'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#1d2d3e' fontsize='10'>Æ </run>
+          </formatted-text>
+        </zone>
+        <zone forceUpdate='true' h='3000' id='29' type-v2='text' w='50000' x='0' y='97000'>
+          <zone-style>
+            <format attr='border-color' value='#000000' />
+            <format attr='border-style' value='none' />
+            <format attr='border-width' value='0' />
+            <format attr='padding-left' value='10' />
+          </zone-style>
+        </zone>
+        <zone forceUpdate='true' h='22400' id='30' type-v2='text' w='45733' x='2600' y='10000'>
+          <formatted-text>
+            <run fontcolor='#2e4356' fontsize='16'>The surge in US consumer spending during the pandemic</run>
+            <run>Æ&#10;</run>
+            <run>Æ&#10;</run>
+            <run fontcolor='#2e4356' fontsize='10'>The panic began slowly, with shoppers looking for face masks and hand sanitizer. But it hit a fever pitch in the first week of March as crowds descended on supermarkets and big-box stores, snapping up cleaning supplies, toilet paper, and nonperishable foods to prepare for the coronavirus. Covid-19 has set off the kind of panic-buying normally reserved for natural disasters. But unlike a hurricane, which delivers destruction within a relatively confined window of time, there is no end in sight to this outbreak - and it&apos;s making shoppers crazy.</run>
+          </formatted-text>
+        </zone>
+        <zone h='25200' id='31' param='horz' type-v2='layout-flow' w='26667' x='60467' y='10400'>
+          <zone fixed-size='250' h='25200' id='12' is-fixed='true' name='Overall increase in 2020' show-title='false' w='13333' x='60467' y='10400'>
+            <layout-cache type-h='cell' type-w='cell' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='0' />
+            </zone-style>
+          </zone>
+          <zone fixed-size='250' h='25200' id='16' is-fixed='true' name='Overall $ increase in 2020' show-title='false' w='13334' x='73800' y='10400'>
+            <layout-cache type-h='cell' type-w='cell' />
+            <zone-style>
+              <format attr='border-color' value='#000000' />
+              <format attr='border-style' value='none' />
+              <format attr='border-width' value='0' />
+              <format attr='margin' value='0' />
+            </zone-style>
+          </zone>
+        </zone>
+        <zone h='27900' id='19' type-v2='empty' w='42733' x='52067' y='6700' />
+        <zone forceUpdate='true' h='3000' id='33' type-v2='text' w='23667' x='62400' y='13600'>
+          <formatted-text>
+            <run fontalignment='1' fontcolor='#1d2d3e' fontsize='12'>OVERALL CHANGE</run>
+          </formatted-text>
+        </zone>
+      </zones>
+      <simple-id uuid='{496FA14F-ACAE-4C26-8C39-50D1BDB5CD4E}' />
+    </dashboard>
+  </dashboards>
+  <windows source-height='30'>
+    <window class='dashboard' name='Panic shoppers and the pandemic'>
+      <viewpoints>
+        <viewpoint name='Overall $ increase in 2020'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Overall increase in 2020'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Panic shopping'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Panic shopping - labels'>
+          <zoom type='entire-view' />
+        </viewpoint>
+        <viewpoint name='Year' />
+      </viewpoints>
+      <active id='6' />
+      <simple-id uuid='{1885A81F-356D-48B5-BB66-68A283CC65EA}' />
+    </window>
+    <window class='worksheet' maximized='true' name='Panic shopping'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{F819053B-A99E-472B-A37A-93861EFA33C6}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Overall $ increase in 2020'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{865AD211-722E-4E5E-AF64-366DC3DD5943}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Overall increase in 2020'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <simple-id uuid='{2260F58C-0E46-4982-A421-3DBD92C1E2FB}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Panic shopping - labels'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='30'>
+            <card type='title' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <zoom type='entire-view' />
+      </viewpoint>
+      <simple-id uuid='{393FA53B-4900-492D-AC51-9B36C1E3E364}' />
+    </window>
+    <window class='worksheet' hidden='true' name='Year'>
+      <cards>
+        <edge name='left'>
+          <strip size='160'>
+            <card type='pages' />
+            <card type='filters' />
+            <card type='marks' />
+          </strip>
+        </edge>
+        <edge name='top'>
+          <strip size='2147483647'>
+            <card type='columns' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='rows' />
+          </strip>
+          <strip size='2147483647'>
+            <card type='title' />
+          </strip>
+        </edge>
+        <edge name='right'>
+          <strip size='160'>
+            <card pane-specification-id='0' param='[federated.08dxcli0uma4801g054jj0gkz3k4].[none:Calculation_142144899839762440:nk]' type='color' />
+          </strip>
+        </edge>
+      </cards>
+      <viewpoint>
+        <default-map-tool-selection tool='2' />
+      </viewpoint>
+      <simple-id uuid='{C40EFD68-8660-465A-A6B0-4127D5A50F12}' />
+    </window>
+  </windows>
+</workbook>
