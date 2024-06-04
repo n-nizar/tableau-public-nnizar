@@ -19,6 +19,7 @@ This visualization illustrates the cost of 1GB of mobile data across different c
 **Visualization**
 
 Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/Costofmobiledatainvariouscountriesarounudtheworld/TheCostof1GBofMobileData) to view the visualization on Tableau Public.
+
 ![alt text](<Images/The Cost of 1GB of Mobile Data.png>)
 ___
 
@@ -38,6 +39,7 @@ This workbook illustrates the progress of EU member states in transitioning from
 **Visualization**
 
 Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/Europespathtoagreenfuture/EUsGreenFuture) to view the visualization on Tableau Public.
+
 ![EU's Path to a Green Future](<Images/EU's Path to a Green Future.png>)
 
 ___
@@ -58,6 +60,7 @@ This visualization showcases the global presence and distribution of Starbucks s
 **Visualization**
 
 Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/TheScaleofStarbucks/TheScaleofStarbucks) to view the visualization on Tableau Public.
+
 ![alt text](<Images/The Scale of Starbucks.png>)
 ___
 
@@ -99,6 +102,7 @@ This workbook examines the historical changes in the CEO-to-worker compensation 
 **Visualization**
 
 Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/CEO-WorkerCompensationRatio_16201504629590/CEO-WorkerCompensation) to view the visualization on Tableau Public.
+
 ![Historical Fluctuation of CEO-to-Worker Compensation Ratio](<Images/Historical Fluctuation of CEO-to-Worker Compensation Ratio.png>)
 
 ___
@@ -120,6 +124,7 @@ This workbook compares price levels across U.S. states relative to the national 
 **Visualization**
 
 Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/RegionalPriceParityinUS_16197132826950/PriceparityinUnitedStates) to view the visualization on Tableau Public.
+
 ![Regional Price Parity in United States](<Images/Price parity in United States.png>)
 
 ___
