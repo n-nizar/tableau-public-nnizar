@@ -69,9 +69,9 @@ ___
 This Tableau workbook presents the results of a survey conducted among 1,224 US adults. The survey explores whether individuals believe they could defeat various animals in an unarmed fight. The data is broken down by gender, showing the differences in responses between men and women.
 
 **Key Features:**
-*Gender Comparison*: The workbook highlights the difference in confidence levels between men and women when it comes to fighting different animals.
-*Visual Clarity*: Each animal is represented in a separate chart, making it easy to compare responses.
-*Data Labels*: Percentage values are clearly displayed, showing the exact responses for both men and women.
+  - *Gender Comparison*: The workbook highlights the difference in confidence levels between men and women when it comes to fighting different animals.
+  - *Visual Clarity*: Each animal is represented in a separate chart, making it easy to compare responses.
+  - *Data Labels*: Percentage values are clearly displayed, showing the exact responses for both men and women.
 
 **Visualization**
 
@@ -168,7 +168,7 @@ ___
 
 ## Portfolio
 
-Check out my portfolio for more Tableau visualizations: [Nithin Nizar's Tableau Portfolio](https://public.tableau.com/app/profile/nithinnizar/vizzes)
+Check out my [portfolio](https://public.tableau.com/app/profile/nithinnizar/vizzes) for more Tableau visualizations.
 
 ## Contributing
 
