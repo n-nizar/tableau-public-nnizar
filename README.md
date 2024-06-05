@@ -18,7 +18,7 @@ This visualization illustrates the cost of 1GB of mobile data across different c
 
 Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/Costofmobiledatainvariouscountriesarounudtheworld/TheCostof1GBofMobileData) to view the visualization on Tableau Public.
 
-![alt text](<Screenshots/The Cost of 1GB of Mobile Data.png>)
+![alt text](<Screenshots/The Cost of 1 GB of Mobile Data.png>)
 ___
 
 ### 2. EU's Path to a Green Future
