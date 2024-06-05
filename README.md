@@ -2,8 +2,6 @@
 
 Welcome to my repository of Tableau visualizations. This collection features comprehensive analyses across various domains, presented through interactive and visually compelling dashboards.
 
-## Tableau Workbooks
-
 ### 1. The Cost of 1GB of Mobile Data
 
 **Description**
@@ -44,7 +42,46 @@ Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/Europespatht
 
 ___
 
-### 3. U.S. Air Travel Drops Due To COVID-19
+### 3. Panic Shoppers and the Pandemic
+
+**Description:**
+This workbook visualizes the surge in US consumer spending during the COVID-19 pandemic. It highlights significant increases in various categories of goods, emphasizing the impact of panic buying in March 2020.
+
+**Key Features:**
+- *Overall Increase*:
+  - 2020 vs 2019: Shows the overall increase in consumer spending in 2020 compared to 2019..
+  - Mar 2020 vs Mar 2019: Illustrates the substantial increase in consumer spending in March 2020 compared to March 2019, indicating the peak of panic buying.
+
+- *Category-specific Visualizations*:
+  - Each chart represents the percentage change in consumer spending in 2020 compared to the previous year for specific categories.
+
+**Visualization**
+
+Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/PanicshoppersandthePandemic/Panicshoppersandthepandemic) to view the visualization on Tableau Public.
+
+![Regional Price Parity in United States](<Images/Panic shoppers and the pandemic.png>)
+
+___
+
+### 4. Humans vs Animals
+
+**Description:**
+This Tableau workbook presents the results of a survey conducted among 1,224 US adults. The survey explores whether individuals believe they could defeat various animals in an unarmed fight. The data is broken down by gender, showing the differences in responses between men and women.
+
+**Key Features:**
+*Gender Comparison*: The workbook highlights the difference in confidence levels between men and women when it comes to fighting different animals.
+*Visual Clarity*: Each animal is represented in a separate chart, making it easy to compare responses.
+*Data Labels*: Percentage values are clearly displayed, showing the exact responses for both men and women.
+
+**Visualization**
+
+Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/HumansvsAnimals_17175962101090/MenvsWomen) to view the visualization on Tableau Public.
+
+![Humans vs Animals](<Images/Humans vs Animals.png>)
+
+___
+
+### 5. U.S. Air Travel Drops Due To COVID-19
 
 **Description**
 This visualization examines the impact of the COVID-19 pandemic on U.S. air travel, focusing on the five major U.S. airlines and five major U.S. destinations. It provides a comparative analysis of passenger traffic changes over time.
@@ -68,7 +105,7 @@ Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/AirTraveldur
 ![alt text](<Images/US Air Travel Drops Due To COVID-19.png>)
 ___
 
-### 4. Historical Fluctuation of CEO-to-Worker Compensation Ratio
+### 6. Historical Fluctuation of CEO-to-Worker Compensation Ratio
 
 **Description:**
 This workbook examines the historical changes in the CEO-to-worker compensation ratio in top US firms from 1965 to 2019. It distinguishes between granted and realized compensations, providing a comprehensive view of executive pay disparity over time.
@@ -87,28 +124,7 @@ Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/CEO-WorkerCo
 
 ___
 
-### 5. Panic Shoppers and the Pandemic
-
-**Description:**
-This workbook visualizes the surge in US consumer spending during the COVID-19 pandemic. It highlights significant increases in various categories of goods, emphasizing the impact of panic buying in March 2020.
-
-**Key Features:**
-- *Overall Increase*:
-  - 2020 vs 2019: Shows the overall increase in consumer spending in 2020 compared to 2019..
-  - Mar 2020 vs Mar 2019: Illustrates the substantial increase in consumer spending in March 2020 compared to March 2019, indicating the peak of panic buying.
-
-- *Category-specific Visualizations*:
-  - Each chart represents the percentage change in consumer spending in 2020 compared to the previous year for specific categories.
-
-**Visualization**
-
-Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/PanicshoppersandthePandemic/Panicshoppersandthepandemic) to view the visualization on Tableau Public.
-
-![Regional Price Parity in United States](<Images/Panic shoppers and the pandemic.png>)
-
-___
-
-### 6. The Scale of Starbucks
+### 7. The Scale of Starbucks
 
 **Description**
 
@@ -128,7 +144,7 @@ Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/TheScaleofSt
 ![alt text](<Images/The Scale of Starbucks.png>)
 ___
 
-### 7. Regional Price Parity in the United States
+### 8. Regional Price Parity in the United States
 
 **Description:**
 This workbook compares price levels across U.S. states relative to the national average, focusing on various categories such as rent, goods, and overall items from 2008 to 2019.
