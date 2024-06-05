@@ -128,7 +128,7 @@ Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/TheScaleofSt
 ![alt text](<Images/The Scale of Starbucks.png>)
 ___
 
-### 7. Regional Price Parity in United States
+### 7. Regional Price Parity in the United States
 
 **Description:**
 This workbook compares price levels across U.S. states relative to the national average, focusing on various categories such as rent, goods, and overall items from 2008 to 2019.
