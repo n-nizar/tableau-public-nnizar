@@ -2,11 +2,11 @@
 
 Welcome to my repository of Tableau visualizations. This collection features comprehensive analyses across various domains, presented through interactive and visually compelling dashboards.
 
-### 1. The Cost of 1GB of Mobile Data
+### 1. The Cost of 1 GB of Mobile Data
 
 **Description**
 
-This visualization illustrates the cost of 1GB of mobile data across different countries with populations above 1 million. The costs are represented in U.S. dollars and are categorized from least expensive to most expensive.
+This visualization illustrates the cost of 1 GB of mobile data across different countries with populations above 1 million. The costs are represented in U.S. dollars and are categorized from least expensive to most expensive.
 
 **Key Features**
 
@@ -66,7 +66,7 @@ ___
 ### 4. Humans vs Animals
 
 **Description:**
-This Tableau workbook presents the results of a survey conducted among 1,224 US adults. The survey explores whether individuals believe they could defeat various animals in an unarmed fight. The data is broken down by gender, showing the differences in responses between men and women.
+This Tableau workbook presents the results of a survey conducted among 1,224 U.S. adults. The survey explores whether individuals believe they could defeat various animals in an unarmed fight. The data is broken down by gender, showing the differences in responses between men and women.
 
 **Key Features:**
   - *Gender Comparison*: The workbook highlights the difference in confidence levels between men and women when it comes to fighting different animals.
@@ -162,7 +162,7 @@ This workbook compares price levels across U.S. states relative to the national 
 
 Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/RegionalPriceParityinUS_16197132826950/PriceparityinUnitedStates) to view the visualization on Tableau Public.
 
-![Regional Price Parity in United States](<Screenshots/Price parity in United States.png>)
+![Regional Price Parity in the United States](<Screenshots/Regional Price Parity in the United States.png>)
 
 ___
 
