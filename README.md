@@ -18,7 +18,7 @@ This visualization illustrates the cost of 1GB of mobile data across different c
 
 Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/Costofmobiledatainvariouscountriesarounudtheworld/TheCostof1GBofMobileData) to view the visualization on Tableau Public.
 
-![alt text](<Images/The Cost of 1GB of Mobile Data.png>)
+![alt text](<Screenshots/The Cost of 1GB of Mobile Data.png>)
 ___
 
 ### 2. EU's Path to a Green Future
@@ -38,7 +38,7 @@ This workbook illustrates the progress of EU member states in transitioning from
 
 Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/Europespathtoagreenfuture/EUsGreenFuture) to view the visualization on Tableau Public.
 
-![EU's Path to a Green Future](<Images/EU's Path to a Green Future.png>)
+![EU's Path to a Green Future](<Screenshots/EU's Path to a Green Future.png>)
 
 ___
 
@@ -59,7 +59,7 @@ This workbook visualizes the surge in US consumer spending during the COVID-19 p
 
 Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/PanicshoppersandthePandemic/Panicshoppersandthepandemic) to view the visualization on Tableau Public.
 
-![Regional Price Parity in United States](<Images/Panic shoppers and the pandemic.png>)
+![Regional Price Parity in United States](<Screenshots/Panic shoppers and the pandemic.png>)
 
 ___
 
@@ -77,7 +77,7 @@ This Tableau workbook presents the results of a survey conducted among 1,224 US 
 
 Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/HumansvsAnimals_17175962101090/MenvsWomen) to view the visualization on Tableau Public.
 
-![Humans vs Animals](<Images/Humans vs Animals.png>)
+![Humans vs Animals](<Screenshots/Humans vs Animals.png>)
 
 ___
 
@@ -98,11 +98,11 @@ Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/AirTraveldur
 
 ##### Impact of COVID-19 on the Five Major U.S. Desinations.
 
-![alt text](<Images/US Air Travel Drops Due To COVID-19 (Major Destinations).png>)
+![alt text](<Screenshots/US Air Travel Drops Due To COVID-19 (Major Destinations).png>)
 
 ##### Impact of COVID-19 on the Five Major U.S. Airlines.
 
-![alt text](<Images/US Air Travel Drops Due To COVID-19.png>)
+![alt text](<Screenshots/US Air Travel Drops Due To COVID-19.png>)
 ___
 
 ### 6. Historical Fluctuation of CEO-to-Worker Compensation Ratio
@@ -120,7 +120,7 @@ This workbook examines the historical changes in the CEO-to-worker compensation 
 
 Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/CEO-WorkerCompensationRatio_16201504629590/CEO-WorkerCompensation) to view the visualization on Tableau Public.
 
-![Historical Fluctuation of CEO-to-Worker Compensation Ratio](<Images/Historical Fluctuation of CEO-to-Worker Compensation Ratio.png>)
+![Historical Fluctuation of CEO-to-Worker Compensation Ratio](<Screenshots/Historical Fluctuation of CEO-to-Worker Compensation Ratio.png>)
 
 ___
 
@@ -141,7 +141,7 @@ This visualization showcases the global presence and distribution of Starbucks s
 
 Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/TheScaleofStarbucks/TheScaleofStarbucks) to view the visualization on Tableau Public.
 
-![alt text](<Images/The Scale of Starbucks.png>)
+![alt text](<Screenshots/The Scale of Starbucks.png>)
 ___
 
 ### 8. Regional Price Parity in the United States
@@ -162,7 +162,7 @@ This workbook compares price levels across U.S. states relative to the national 
 
 Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/RegionalPriceParityinUS_16197132826950/PriceparityinUnitedStates) to view the visualization on Tableau Public.
 
-![Regional Price Parity in United States](<Images/Price parity in United States.png>)
+![Regional Price Parity in United States](<Screenshots/Price parity in United States.png>)
 
 ___
 
