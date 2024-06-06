@@ -81,7 +81,7 @@ Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/HumansvsAnim
 
 ___
 
-### 5. U.S. Air Travel Drops Due To COVID-19
+### 5. U.S. Air Travel Drops Due To COVID-19 Pandemic
 
 **Description**
 This visualization examines the impact of the COVID-19 pandemic on U.S. air travel, focusing on the five major U.S. airlines and five major U.S. destinations. It provides a comparative analysis of passenger traffic changes over time.
