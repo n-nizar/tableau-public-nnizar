@@ -102,7 +102,7 @@ Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/AirTraveldur
 
 ##### Impact of COVID-19 on the Five Major U.S. Airlines.
 
-![alt text](<Images/US Air Travel Drops Due To COVID-19.png>)
+![alt text](<Images/US Air Travel Drops Due To COVID-19 (Major Airlines).png>)
 ___
 
 ### 6. Historical Fluctuation of CEO-to-Worker Compensation Ratio
