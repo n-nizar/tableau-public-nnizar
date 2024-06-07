@@ -16,7 +16,7 @@ This visualization illustrates the cost of 1 GB of mobile data across different 
 
 **Visualization**
 
-Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/Costofmobiledatainvariouscountriesarounudtheworld/TheCostof1GBofMobileData) to view the visualization on Tableau Public.
+View the interactive visualization on Tableau Public by clicking [here](https://public.tableau.com/app/profile/nithinnizar/viz/Costofmobiledatainvariouscountriesarounudtheworld/TheCostof1GBofMobileData).
 
 ![alt text](<Images/The Cost of 1 GB of Mobile Data.png>)
 ___
@@ -36,7 +36,7 @@ This workbook illustrates the progress of EU member states in transitioning from
 
 **Visualization**
 
-Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/Europespathtoagreenfuture/EUsGreenFuture) to view the visualization on Tableau Public.
+View the interactive visualization on Tableau Public by clicking [here](https://public.tableau.com/app/profile/nithinnizar/viz/Europespathtoagreenfuture/EUsGreenFuture).
 
 ![EU's Path to a Green Future](<Images/EU's Path to a Green Future.png>)
 
@@ -57,7 +57,7 @@ This workbook visualizes the surge in US consumer spending during the COVID-19 p
 
 **Visualization**
 
-Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/PanicshoppersandthePandemic/Panicshoppersandthepandemic) to view the visualization on Tableau Public.
+View the interactive visualization on Tableau Public by clicking [here](https://public.tableau.com/app/profile/nithinnizar/viz/PanicshoppersandthePandemic/Panicshoppersandthepandemic).
 
 ![Regional Price Parity in United States](<Images/Panic shoppers and the pandemic.png>)
 
@@ -75,7 +75,7 @@ This Tableau workbook presents the results of a survey conducted among 1,224 U.S
 
 **Visualization**
 
-Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/HumansvsAnimals_17175962101090/MenvsWomen) to view the visualization on Tableau Public.
+View the interactive visualization on Tableau Public by clicking [here](https://public.tableau.com/app/profile/nithinnizar/viz/HumansvsAnimals_17175962101090/MenvsWomen).
 
 ![Humans vs Animals](<Images/Humans vs Animals.png>)
 
@@ -94,7 +94,7 @@ This visualization examines the impact of the COVID-19 pandemic on U.S. air trav
 
 **Visualization**
 
-Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/AirTravelduringCovid/USAirTravelAirline) to view the visualization on Tableau Public.
+View the interactive visualization on Tableau Public by clicking [here](https://public.tableau.com/app/profile/nithinnizar/viz/AirTravelduringCovid/USAirTravelAirline).
 
 ##### Impact of COVID-19 on the Five Major U.S. Desinations.
 
@@ -118,7 +118,7 @@ This workbook examines the historical changes in the CEO-to-worker compensation 
 
 **Visualization**
 
-Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/CEO-WorkerCompensationRatio_16201504629590/CEO-WorkerCompensation) to view the visualization on Tableau Public.
+View the interactive visualization on Tableau Public by clicking [here](https://public.tableau.com/app/profile/nithinnizar/viz/CEO-WorkerCompensationRatio_16201504629590/CEO-WorkerCompensation).
 
 ![Historical Fluctuation of CEO-to-Worker Compensation Ratio](<Images/Historical Fluctuation of CEO-to-Worker Compensation Ratio.png>)
 
@@ -139,7 +139,7 @@ This visualization showcases the global presence and distribution of Starbucks s
 
 **Visualization**
 
-Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/TheScaleofStarbucks/TheScaleofStarbucks) to view the visualization on Tableau Public.
+View the interactive visualization on Tableau Public by clicking [here](https://public.tableau.com/app/profile/nithinnizar/viz/TheScaleofStarbucks/TheScaleofStarbucks).
 
 ![alt text](<Images/The Scale of Starbucks.png>)
 ___
@@ -160,7 +160,7 @@ This workbook compares price levels across U.S. states relative to the national 
 
 **Visualization**
 
-Click [here](https://public.tableau.com/app/profile/nithinnizar/viz/RegionalPriceParityinUS_16197132826950/PriceparityinUnitedStates) to view the visualization on Tableau Public.
+View the interactive visualization on Tableau Public by clicking [here](https://public.tableau.com/app/profile/nithinnizar/viz/RegionalPriceParityinUS_16197132826950/PriceparityinUnitedStates).
 
 ![Regional Price Parity in the United States](<Images/Regional Price Parity in the United States.png>)
 
