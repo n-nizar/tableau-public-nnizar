@@ -75,7 +75,7 @@ This Tableau workbook presents the results of a survey conducted among 1,224 U.S
 
 **Visualization**
 
-View the interactive visualization on Tableau Public by clicking [here](https://public.tableau.com/app/profile/nithinnizar/viz/HumansvsAnimals_17175962101090/MenvsWomen).
+View the interactive visualization on Tableau Public by clicking [here](https://public.tableau.com/app/profile/nithinnizar/viz/HumansvsAnimals_17175962101090/MenWomen).
 
 ![Humans vs Animals](<Images/Humans vs Animals.png>)
 
